@@ -1,2 +1,1 @@
-# backend
 # green_slate
