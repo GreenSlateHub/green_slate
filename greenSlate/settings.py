@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     "greenstate_main", # added by me
+    'base', #for api testing
+
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",

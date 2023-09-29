@@ -5,19 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="{% static 'output.css' %}" rel="stylesheet">
+  <link href="{% static 'style.css' %}" rel="stylesheet">
+  <link href="{% static 'font-awesome/all.css' %}" rel="stylesheet">
+  <link href="{% static 'font-awesome/all.min.css' %}" rel="stylesheet">
+  <link href="{% static 'font-awesome/fontawesome.css' %}" rel="stylesheet">
+  <link href="{% static 'font-awesome/fontawesome.min.css' %}" rel="stylesheet">
 </head>
-<body >
+<body id="root">
+  {% comment %} {%include 'header.html'%} {% endcomment %}
    <div class="bg-gray-100">
-<p class="text-red-700">hello nav</p>
-<p >hello nav</p>
-<p >hello nav</p>
+
 
 </div>
-  <h1 class="text-3xl font-bold underline">
 {% block test %}
-Hello world! this is a test base
+<h1 class="text-3xl font-bold underline">
+-----------------------
+</h1>
 {% endblock test %}
     
-  </h1>
 </body>
 </html>
